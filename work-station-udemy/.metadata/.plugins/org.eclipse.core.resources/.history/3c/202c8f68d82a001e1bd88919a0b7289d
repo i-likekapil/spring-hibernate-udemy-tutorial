@@ -1,0 +1,17 @@
+package io.kapil.springdemo;
+
+public class VolleyBall implements Coach {
+
+	private FortuneService fortuneService;
+	
+	@Override
+	public String getDailyWorkout() {
+		return "play volleyball for 50 minutes";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		return this.fortuneService.getFortune();
+	}
+
+}

@@ -1,0 +1,23 @@
+package io.kapil.springdemo;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class BeanScopeDemoApp {
+
+	public static void main(String[] args) {
+		
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContextPrototype.xml");
+		
+		HappyFortuneService service1 = context.getBean("fortune",HappyFortuneService.class);
+		System.out.println(service1.getTitle());
+		service1.setTitle("Kapil");
+		System.out.println(service1.getTitle());
+		
+		HappyFortuneService service2 = context.getBean("fortune",HappyFortuneService.class);
+		
+		System.out.println(service2.getTitle());
+		
+		context.close();
+	}
+
+}

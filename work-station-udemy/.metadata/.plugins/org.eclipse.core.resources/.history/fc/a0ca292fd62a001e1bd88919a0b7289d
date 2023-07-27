@@ -1,0 +1,14 @@
+package io.kapil.springdemo;
+
+import org.springframework.stereotype.Component;
+
+//@Component("thatSillyCoach")
+@Component // default bean name is lower case of 1st letter of classname baseballCoach
+public class BaseballCoach implements Coach {
+
+	@Override
+	public String getDailyWorkout() {
+		return "play baseball for 30 minutes";
+	}
+
+}

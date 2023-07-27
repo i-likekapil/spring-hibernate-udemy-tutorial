@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/home/cavisson/Development/Udemy/work-station-udemy/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+531984416.index
+4280362031.index
+3720173385.index
+258414821.index
+1524846919.index
+557173393.index
+1859671941.index

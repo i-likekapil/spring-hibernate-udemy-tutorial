@@ -1,0 +1,10 @@
+package io.kapil.springdemo;
+
+public class BaseballCoach implements Coach {
+
+	@Override
+	public String getDailyWorkout() {
+		return "play baseball for 30 minutes";
+	}
+
+}

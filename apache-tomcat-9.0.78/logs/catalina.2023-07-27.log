@@ -1,0 +1,111 @@
+27-Jul-2023 11:16:27.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.78
+27-Jul-2023 11:16:27.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2023 13:15:43 UTC
+27-Jul-2023 11:16:27.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.78.0
+27-Jul-2023 11:16:27.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+27-Jul-2023 11:16:27.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-76-generic
+27-Jul-2023 11:16:27.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Jul-2023 11:16:27.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_161/jre
+27-Jul-2023 11:16:27.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_372-b07
+27-Jul-2023 11:16:27.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+27-Jul-2023 11:16:27.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/cavisson/Development/Udemy/apache-tomcat-9.0.78
+27-Jul-2023 11:16:27.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/cavisson/Development/Udemy/apache-tomcat-9.0.78
+27-Jul-2023 11:16:27.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/conf/logging.properties
+27-Jul-2023 11:16:27.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Jul-2023 11:16:27.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+AggressiveOpts
+27-Jul-2023 11:16:27.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms256m
+27-Jul-2023 11:16:27.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+27-Jul-2023 11:16:27.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=256m
+27-Jul-2023 11:16:27.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+DisableExplicitGC
+27-Jul-2023 11:16:27.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Jul-2023 11:16:27.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Jul-2023 11:16:27.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Jul-2023 11:16:27.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Jul-2023 11:16:27.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/cavisson/Development/Udemy/apache-tomcat-9.0.78
+27-Jul-2023 11:16:27.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/cavisson/Development/Udemy/apache-tomcat-9.0.78
+27-Jul-2023 11:16:27.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/temp
+27-Jul-2023 11:16:27.820 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/u01/app/oracle/product/11.2.0/xe/lib::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+27-Jul-2023 11:16:28.113 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Jul-2023 11:16:28.133 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [470] milliseconds
+27-Jul-2023 11:16:28.163 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Jul-2023 11:16:28.164 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.78]
+27-Jul-2023 11:16:28.171 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/ROOT]
+27-Jul-2023 11:16:33.373 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,006] milliseconds.
+27-Jul-2023 11:16:33.399 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/ROOT] has finished in [5,228] ms
+27-Jul-2023 11:16:33.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/docs]
+27-Jul-2023 11:16:33.430 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/docs] has finished in [31] ms
+27-Jul-2023 11:16:33.431 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/manager]
+27-Jul-2023 11:16:33.484 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/manager] has finished in [53] ms
+27-Jul-2023 11:16:33.485 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/host-manager]
+27-Jul-2023 11:16:33.505 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/host-manager] has finished in [20] ms
+27-Jul-2023 11:16:33.505 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/examples]
+27-Jul-2023 11:16:33.800 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/examples] has finished in [294] ms
+27-Jul-2023 11:16:33.804 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Jul-2023 11:16:33.819 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5686] milliseconds
+27-Jul-2023 11:17:01.185 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Jul-2023 11:17:01.186 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Jul-2023 11:17:01.187 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Jul-2023 11:17:01.192 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [SeedGenerator Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.Object.wait(Object.java:502)
+ sun.security.provider.SeedGenerator$ThreadedSeedGenerator.run(SeedGenerator.java:334)
+ java.lang.Thread.run(Thread.java:750)
+27-Jul-2023 11:17:01.212 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Jul-2023 11:17:01.222 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Jul-2023 11:23:02.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.78
+27-Jul-2023 11:23:02.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2023 13:15:43 UTC
+27-Jul-2023 11:23:02.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.78.0
+27-Jul-2023 11:23:02.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+27-Jul-2023 11:23:02.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-76-generic
+27-Jul-2023 11:23:02.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Jul-2023 11:23:02.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_161/jre
+27-Jul-2023 11:23:02.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_372-b07
+27-Jul-2023 11:23:02.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+27-Jul-2023 11:23:02.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/cavisson/Development/Udemy/apache-tomcat-9.0.78
+27-Jul-2023 11:23:02.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/cavisson/Development/Udemy/apache-tomcat-9.0.78
+27-Jul-2023 11:23:02.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/conf/logging.properties
+27-Jul-2023 11:23:02.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Jul-2023 11:23:02.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+AggressiveOpts
+27-Jul-2023 11:23:02.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms256m
+27-Jul-2023 11:23:02.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+27-Jul-2023 11:23:02.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=256m
+27-Jul-2023 11:23:02.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+DisableExplicitGC
+27-Jul-2023 11:23:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Jul-2023 11:23:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Jul-2023 11:23:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Jul-2023 11:23:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Jul-2023 11:23:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/cavisson/Development/Udemy/apache-tomcat-9.0.78
+27-Jul-2023 11:23:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/cavisson/Development/Udemy/apache-tomcat-9.0.78
+27-Jul-2023 11:23:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/temp
+27-Jul-2023 11:23:02.540 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/u01/app/oracle/product/11.2.0/xe/lib::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+27-Jul-2023 11:23:02.825 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Jul-2023 11:23:02.848 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [459] milliseconds
+27-Jul-2023 11:23:02.881 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Jul-2023 11:23:02.881 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.78]
+27-Jul-2023 11:23:02.890 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/ROOT]
+27-Jul-2023 11:23:08.096 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,004] milliseconds.
+27-Jul-2023 11:23:08.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/ROOT] has finished in [5,230] ms
+27-Jul-2023 11:23:08.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/docs]
+27-Jul-2023 11:23:08.153 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/docs] has finished in [32] ms
+27-Jul-2023 11:23:08.154 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/manager]
+27-Jul-2023 11:23:08.205 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/manager] has finished in [51] ms
+27-Jul-2023 11:23:08.205 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/host-manager]
+27-Jul-2023 11:23:08.223 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/host-manager] has finished in [18] ms
+27-Jul-2023 11:23:08.223 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/examples]
+27-Jul-2023 11:23:08.482 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/examples] has finished in [259] ms
+27-Jul-2023 11:23:08.486 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Jul-2023 11:23:08.505 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5657] milliseconds
+27-Jul-2023 11:23:38.516 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/spring-mvc-demo.war]
+27-Jul-2023 11:23:39.276 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jul-2023 11:23:39.396 INFO [Catalina-utility-1] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+27-Jul-2023 11:23:40.092 INFO [Catalina-utility-1] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 695 ms
+27-Jul-2023 11:23:40.093 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/cavisson/Development/Udemy/apache-tomcat-9.0.78/webapps/spring-mvc-demo.war] has finished in [1,577] ms
+27-Jul-2023 11:25:07.553 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Jul-2023 11:25:07.554 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Jul-2023 11:25:07.555 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Jul-2023 11:25:07.559 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [SeedGenerator Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.Object.wait(Object.java:502)
+ sun.security.provider.SeedGenerator$ThreadedSeedGenerator.run(SeedGenerator.java:334)
+ java.lang.Thread.run(Thread.java:750)
+27-Jul-2023 11:25:07.587 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Jul-2023 11:25:07.598 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

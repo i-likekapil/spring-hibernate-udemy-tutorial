@@ -1,0 +1,24 @@
+package io.kapil.springmvc;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class HomeController {
+	
+	@RequestMapping("/")
+	public String home() {
+		return "main-menu";
+	}
+	
+	@RequestMapping("/show-form")
+	public String showForm() {
+		return "show-form";
+	}
+	
+	@RequestMapping("/show")
+	public String showProcessedData() {
+		return "show-process-data";
+	}
+
+}

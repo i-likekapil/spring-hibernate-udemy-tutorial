@@ -1,0 +1,33 @@
+package io.kapil.springdemo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class TennisCoach implements Coach {
+
+	@Autowired
+	private FortuneService fortuneService;
+	
+	@Override
+	public String getDailyWorkout() {
+		return "Played tennis for 2 hours";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		return fortuneService.getFortune();
+	}
+	
+	
+	public void init() {
+		System.out.println("TennisCoach init bean hook");
+	}
+	
+	public void destroy() {
+		System.out.println("TennisCoach init bean hook");
+	}
+	
+	
+
+}

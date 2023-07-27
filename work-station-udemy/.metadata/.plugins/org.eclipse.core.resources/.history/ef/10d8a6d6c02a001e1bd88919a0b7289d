@@ -1,0 +1,13 @@
+package io.kapil.springdemo;
+
+public class MyApp {
+
+	public static void main(String[] args) {
+		System.out.println("App is started.....");
+		
+		Coach theCoach = new BaseballCoach();
+		System.out.println(theCoach.getDailyWorkout());
+
+	}
+
+}

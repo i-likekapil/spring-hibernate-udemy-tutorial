@@ -1,0 +1,15 @@
+package io.kapil.springdemo;
+
+public class HappyFortuneService {
+	private String title = "Default";
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	
+
+}

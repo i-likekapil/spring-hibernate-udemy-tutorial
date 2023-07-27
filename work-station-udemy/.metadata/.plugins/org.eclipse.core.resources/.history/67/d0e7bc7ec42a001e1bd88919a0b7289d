@@ -1,0 +1,18 @@
+package io.kapil.springdemo;
+
+public class HelloSpringApp {
+	public static void main(String[] args) {
+
+		System.out.println("App is started.....");
+
+		// load spring configuration file
+
+		// retrieve bean from spring container
+
+		// call method on the bean
+
+		// close the context
+
+	}
+
+}

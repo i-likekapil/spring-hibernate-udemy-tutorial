@@ -1,0 +1,5 @@
+package io.kapil.springmvc;
+
+public class HomeController {
+
+}

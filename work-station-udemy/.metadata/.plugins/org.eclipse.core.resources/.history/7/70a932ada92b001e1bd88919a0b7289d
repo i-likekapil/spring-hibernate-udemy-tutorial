@@ -1,0 +1,45 @@
+package io.kapil.springmvc;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class HomeController {
+
+	@RequestMapping("/")
+	public String home() {
+		return "main-menu";
+	}
+
+	@RequestMapping("/show-form")
+	public String showForm() {
+		return "show-form";
+	}
+
+	@RequestMapping("/show")
+	public String showProcessedData() {
+		return "show-process-data";
+	}
+
+	@RequestMapping("/show-v2")
+	public String letsShoutDude(HttpServletRequest req, Model model) {
+
+		// read the req parameter from http from
+		String name = req.getParameter("studentName");
+
+		// do some processing
+		name = name.toUpperCase();
+
+		// do some extra processing
+		String result = "Yo " + name + " !";
+
+		// add message to model
+		model.addAttribute("result", result);
+
+		return "show-process-data";
+	}
+
+}
