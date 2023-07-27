@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8"%>
+         pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,8 +8,9 @@
 </head>
 <body>
 <h1>Namaste Spring MVC ke duniya</h1>
-
-<a href="show-form">Hello World Form</a>
-
+<ul>
+    <li><a href="/">Hello World Form</a></li>
+    <li><a href="form/">Spring MVC Form</a></li>
+</ul>
 </body>
 </html>
