@@ -11,6 +11,7 @@
 <ul>
     <li><a href="/">Hello World Form</a></li>
     <li><a href="form/">Spring MVC Form</a></li>
+    <li><a href="form-validator/">Spring MVC Form with hibernate form validation</a></li>
 </ul>
 </body>
 </html>
