@@ -47,6 +47,7 @@ public class FormValidatorController {
         // log input data and do uppercase
 
         System.out.println(customer);
+        System.out.println(result);
         if (result.hasErrors()) {
             return "form-validation";
         }

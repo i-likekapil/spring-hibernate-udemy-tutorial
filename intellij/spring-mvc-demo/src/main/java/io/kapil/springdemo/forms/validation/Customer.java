@@ -1,6 +1,9 @@
 package io.kapil.springdemo.forms.validation;
 
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
 /**
@@ -17,6 +20,30 @@ public class Customer {
     @NotNull(message = "is required")
     @Size(min = 4,message = "last name length should more than 3")
     private String lastName;
+
+    @Min(value = 1, message = "minimum no. of passes is 1")
+    @Max(value = 5,message = "no. of passes not more than 5")
+    @NotNull(message = "is required")
+    private int freePasses;
+
+    @Pattern(regexp = "^[a-zA-Z0-9]{5}",message = "you enter invalid postal code")
+    private String postalCode;
+
+    public String getPostalCode() {
+        return postalCode;
+    }
+
+    public void setPostalCode(String postalCode) {
+        this.postalCode = postalCode;
+    }
+
+    public int getFreePasses() {
+        return freePasses;
+    }
+
+    public void setFreePasses(int freePasses) {
+        this.freePasses = freePasses;
+    }
 
     public String getFirstName() {
         return firstName;

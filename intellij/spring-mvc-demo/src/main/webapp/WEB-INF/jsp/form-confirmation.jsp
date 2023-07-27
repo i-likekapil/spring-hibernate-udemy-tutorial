@@ -16,6 +16,8 @@
 <h1>Result </h1>
 <h2>First Name is ${customer.firstName}</h2>
 <h2>Last Name is ${customer.lastName} </h2>
+<h2>Postal Code is ${customer.postalCode} </h2>
+<h2>Number of free passes is ${customer.freePasses} </h2>
 
 </body>
 </html>
