@@ -18,6 +18,7 @@
 <h2>Last Name is ${customer.lastName} </h2>
 <h2>Postal Code is ${customer.postalCode} </h2>
 <h2>Number of free passes is ${customer.freePasses} </h2>
+<h2>Course code is ${customer.courseCode} </h2>
 
 </body>
 </html>

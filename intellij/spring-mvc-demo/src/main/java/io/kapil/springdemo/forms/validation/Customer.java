@@ -1,5 +1,7 @@
 package io.kapil.springdemo.forms.validation;
 
+import io.kapil.springdemo.forms.validation.customFormValidation.CourseCode;
+
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
@@ -28,6 +30,17 @@ public class Customer {
 
     @Pattern(regexp = "^[a-zA-Z0-9]{5}",message = "you enter invalid postal code")
     private String postalCode;
+
+    @CourseCode
+    private String courseCode;
+
+    public String getCourseCode() {
+        return courseCode;
+    }
+
+    public void setCourseCode(String courseCode) {
+        this.courseCode = courseCode;
+    }
 
     public String getPostalCode() {
         return postalCode;
