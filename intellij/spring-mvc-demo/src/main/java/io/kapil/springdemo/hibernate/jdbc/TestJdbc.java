@@ -15,7 +15,7 @@ public class TestJdbc {
 
 
         try {
-            String JDBC_URL = "jdbc:mysql://localhost:3306/hb-04-one-to-many-uni?useSSL=false&serverTimezone=UTC";
+            String JDBC_URL = "jdbc:mysql://localhost:3306/hb-05-many-to-many?useSSL=false&serverTimezone=UTC";
             String USER_NAME = "cavisson";
             String PASSWORD = "Kapil@1234";
 
